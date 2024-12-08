@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    </html>
+<SCRIPT>
+var click=0; 
+
+function hi(){
+    click+=1; 
+    document.getElementById("score").innerHTML = "your score is " + click;
+}
+</SCRIPT>
+    <head>
+	    <title>clicker game</title>
+	</head>
+	<body>	
+        <button style=" background-color: #2290ac; /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100px;
+        border-radius: 12px;
+        width: 100%;" onclick="hi()" id="demo">Click </button>
+        <div style="font-size: larger;
+        color: #00e1ff;
+        text-align: center;
+        font-size: 100px;" id="score">your score is 0</div>
+	</body>
